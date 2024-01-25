@@ -1,6 +1,6 @@
 # Zsh Setup
 
-Begin with installing the following fonts
+Begin with installing the following fonts. Make sure your terminal uses them.
 
 - [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
 - [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
