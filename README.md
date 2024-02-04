@@ -10,7 +10,7 @@ Begin with installing the following fonts. Make sure your terminal uses them.
 Install ZSH
 
 ```bash
-sudo apt install zsh
+sudo apt install -y zsh
 ```
 
 Execute ZSH for the first time
