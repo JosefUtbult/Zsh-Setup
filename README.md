@@ -19,12 +19,6 @@ Execute ZSH for the first time
 exec zsh
 ```
 
-Make ZSH your default shell
-
-```bash
-chsh -s $(which zsh)
-```
-
 ## Install oh-my-zsh
 
 Run the following command
