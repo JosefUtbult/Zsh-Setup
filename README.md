@@ -90,3 +90,11 @@ Enable `Transiend prompt`
 Select the `Verbose` instant prompt mode
 
 Apply the changes to `~/.zshrc`
+
+Now, you need to add a line to `~/.zshrc` if you are in WSL. Open it and before the line `if [[ "$(cmd.exe /c 'echo %SSH_CLIENT%' 2>/dev/null | sed $'s/\r//' | grep ' 22$')" ]]; then echo true; fi`, add the following
+
+```bash
+if [[ "$(cmd.exe /c 'echo %SSH_CLIENT%' 2>/dev/null | sed $'s/\r//' | grep ' 22$')" ]]; then
+  export P9K_SSH=1
+fi
+```
