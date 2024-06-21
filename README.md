@@ -1,6 +1,12 @@
 # Zsh Setup
 
-Begin with installing the Lilex Nerd Font packaged in this repo.
+Install required packages
+**Ubuntu**
+```bash
+sudo apt install -y curl
+```
+
+Then install the Lilex Nerd Font packaged in this repo.
 
 **Ubuntu**
 Unzip the `Lilex.zip` archive to the local share font folder and rebuild the font cache.
