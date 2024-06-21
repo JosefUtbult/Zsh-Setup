@@ -2,6 +2,14 @@
 
 Begin with installing the Lilex Nerd Font packaged in this repo.
 
+**Ubuntu**
+Unzip the `Lilex.zip` archive to the local share font folder and rebuild the font cache.
+```bash
+mkdir -p ~/.local/share/fonts/lilex
+unzip Lilex.zip -d ~/.local/share/fonts/lilex
+fc-cache -f -v
+```
+
 Install ZSH
 
 ```bash
