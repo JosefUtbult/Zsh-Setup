@@ -36,6 +36,8 @@ Make ZSH your default shell
 chsh -s $(which zsh)
 ```
 
+In Ubuntu Terminal this doesn't always work. In that case, just go to your profile settings, select `Run a custom command instead of my shell` and set the command to `/usr/bin/zsh`
+
 ## Install oh-my-zsh
 
 Run the following command
