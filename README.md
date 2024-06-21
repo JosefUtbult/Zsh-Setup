@@ -10,6 +10,8 @@ unzip Lilex.zip -d ~/.local/share/fonts/lilex
 fc-cache -f -v
 ```
 
+Then set the font in you terminal profile.
+
 Install ZSH
 
 ```bash
